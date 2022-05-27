@@ -45,13 +45,13 @@ public class testCases {
 	public void testCreateUser() {
 		RestAssured.baseURI = "https://reqres.in/";
 		JSONObject params = new JSONObject();
-		params.put("name", "Aditya");
+		params.put("name", "raj");
 		params.put("job", "QA");
 
 		/*HashMap<String,String> params = new HashMap();
-		params.put("name", "Aditya");
+		params.put("name", "raj");
 		params.put("job", "QA"); */
-		given().when().contentType("application/json").post("api/users").then().assertThat().body("name", IsEqual.equalTo("Aditya"));
+		given().when().contentType("application/json").post("api/users").then().assertThat().body("name", IsEqual.equalTo("raj"));
 	}
 	
 	@Test
