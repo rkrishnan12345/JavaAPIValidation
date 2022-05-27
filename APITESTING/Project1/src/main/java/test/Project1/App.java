@@ -1,4 +1,4 @@
-package test.SampleProj;
+package test.Project1;
 
 /**
  * Hello world!
