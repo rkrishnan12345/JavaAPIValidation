@@ -1,4 +1,4 @@
-package test.SampleProj;
+package test.Project1;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
